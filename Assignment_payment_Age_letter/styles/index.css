@@ -1,0 +1,29 @@
+.container{
+ display: grid;
+ grid-template-columns: auto auto auto;
+}
+
+.images{
+  width: 400px;
+  height: 200px;
+}
+
+.dark{
+  background-color: black;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(255, 252, 252) 0px 0px 0px 3px;
+}
+
+form{
+  margin-top: 100px;
+  width: 100px;
+  padding: 10px;
+}
+.shadow{
+  margin: 5px 10px;
+  padding: 10px;
+  column-gap:10px;
+  display: grid;
+  grid-template-columns:3, 1fr;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
